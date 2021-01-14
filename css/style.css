@@ -1,0 +1,72 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2 {
+    font-family: 'Bebas Neue', cursive;
+}
+p {
+    font-size: 15px;
+}
+.logo-font {
+    font-family: 'Montserrat', sans-serif
+}
+.nike-orange-color {
+    color: #ff715d;
+}
+.nike-blue-color {
+    color: #363958;
+}
+.nike-bg-orange {
+    background-color: #ff715d;
+    background: linear-gradient(180deg, #FF715D 0%, #d86050 100%);
+}
+.nike-bg {
+    background-color: #FFF9F4;
+}
+.nike-bg-light {
+    background-color: #F1F1F1;
+}
+.nike-bg-pattern {
+    background-image: url(../images/logo/bg-pattern.gif);
+    background-repeat: no-repeat;
+    background-position: top -85px left 36%;
+    background-size: 10%;
+}
+.nike-btn {
+    border-radius: 10px;
+    padding: 0 30px;
+}
+.nike-head-text {
+    font-size: 80px;
+}
+.nike-sub-text {
+    font-size: 48px;
+}
+.nike-round {
+    border-radius: 15px;
+}
+.nike-shadow {
+    box-shadow: 0 .5rem 1rem rgba(114, 113, 113, 0.1);
+}
+.nike-navbar .nav-item {
+    margin-left: 50px;
+}
+.product_item {
+    height: 300px;
+    min-width: 300px;
+}
+.nike-padding-b {
+    padding-bottom: 100px;
+}
+.card-img-top {
+    transition: .5s ;
+}
+.product_item:hover .card-img-top {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
