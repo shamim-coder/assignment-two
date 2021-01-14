@@ -54,15 +54,33 @@ p {
 .nike-padding-b {
     padding-bottom: 100px;
 }
-.card-img-top {
-    transition: .5s ;
+.card-img-top, .blog_img {
+    transition: .4s ;
 }
 .product_item:hover .card-img-top {
     transform: scale(1.1);
 }
-
-
-
-
-
+.blog_img:hover img {
+    transform: scale(1.1);
+}
+#blog .nike-sub-text {
+    margin-top: -60px;
+}
+.testimonial_cap {
+    max-width: 600px;
+}
+.title_border {
+    width: 150px;
+    height: 5px;
+    background-color: #d86050;
+    margin: auto;
+}
+.like_commente {
+    border-bottom: 1px solid #F1F1F1;
+    line-height: 40px;
+}
+.like_commente a {
+    margin-right: 30px;
+    font-size: 14px;
+}
 
