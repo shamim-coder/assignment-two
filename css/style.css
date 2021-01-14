@@ -10,6 +10,9 @@ p {
 .logo-font {
     font-family: 'Montserrat', sans-serif
 }
+#navbarNav .nike-active {
+    color: #ff715d;
+}
 .nike-orange-color {
     color: #ff715d;
 }
@@ -49,7 +52,7 @@ p {
     box-shadow: 0 .5rem 1rem rgba(114, 113, 113, 0.1);
 }
 .nike-navbar .nav-item {
-    margin-left: 50px;
+    margin-left: 30px;
 }
 .nike-padding-b {
     padding-bottom: 100px;
@@ -86,4 +89,39 @@ p {
 #testimonial {
     background-color: #F1F1F1;
 }
- 
+.icon_side i {
+    font-size: 45px;
+}
+.content_side h6 {
+    margin-bottom: 3px;
+}
+
+.footer_menu li a, .content_side a {
+    color: #6c757d;
+    transition: .2s;
+}
+footer a:hover {
+    color: #ff715d;
+}
+#navbarNav ul li:hover a {
+    color: #ff715d;
+}
+
+
+/* Custom Media Queries */
+
+
+@media only screen and (max-width: 767px) {
+    .card-footer {
+        display: flex;
+    }
+    #blog .nike-sub-text {
+        margin-top: -10px;
+    }
+    blockquote q {
+        font-size: 24px;
+    }
+    .top_header {
+        margin-top: 50px;
+    }
+}
